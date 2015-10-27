@@ -1,0 +1,17 @@
+{
+  "listening_port" : 55555,
+  "storage_path" : "/mnt/sync/config",
+  "vendor" : "docker",
+  "display_new_version": false,
+  "check_for_updates": false,
+  "shared_folders": [
+    {
+      "secret": "SECRET",
+      "dir": "/mnt/sync/data",
+      "use_relay_server": true,
+      "use_tracker": true,
+      "search_lan": true,
+      "use_sync_trash": false
+    }
+  ]
+}
