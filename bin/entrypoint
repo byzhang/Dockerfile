@@ -3,4 +3,4 @@
 mkdir -p /mnt/sync/data
 mkdir -p /mnt/sync/config
 
-btsync --config /etc/btsync.conf --nodaemon
+exec btsync --config /etc/btsync.conf --nodaemon
